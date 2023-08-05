@@ -32,7 +32,7 @@
 <img width="440" alt="Screenshot 2023-08-05 at 1 34 09 PM" src="https://github.com/gyeom-ji/Saessakhyeyo/assets/94424579/f4ee0a44-e34d-4340-90cd-bcd4047576de">
 
 #
-<img width="440" alt="Screenshot 2023-08-05 at 1 34 09 PM" src=https://github.com/gyeom-ji/Saessakhyeyo/assets/94424579/7ca7614d-fe11-4a9e-9cae-753a8317609f">
+<img width="440" alt="Screenshot 2023-08-05 at 1 34 09 PM" src="https://github.com/gyeom-ji/Saessakhyeyo/assets/94424579/7ca7614d-fe11-4a9e-9cae-753a8317609f">
 <img width="440" alt="Screenshot 2023-08-05 at 1 34 09 PM" src="https://github.com/gyeom-ji/Saessakhyeyo/assets/94424579/5abdd32d-1403-4c47-b4da-883487de29d5">
 
 
