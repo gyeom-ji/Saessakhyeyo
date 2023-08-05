@@ -9,13 +9,11 @@ import Foundation
 import Alamofire
 import RxCocoa
 import RxSwift
-import ChatGPTSwift
 
 struct QuestionModel {
     
     static let shared = QuestionModel()
-    
-    let api = ChatGPTAPI(apiKey: "API_KEY")
+
     var isDeleteQuestion = PublishSubject<Int>()
     var updateQuestion = BehaviorSubject<Question>(value: Question())
     var question = BehaviorSubject<Question>(value: Question())

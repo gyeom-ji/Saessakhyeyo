@@ -9,7 +9,6 @@ import Foundation
 import RxCocoa
 import RxSwift
 import Alamofire
-import AlamofireImage
 
 struct Resource<T> {
     let url: URL

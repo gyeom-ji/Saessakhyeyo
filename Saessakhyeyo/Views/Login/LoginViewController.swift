@@ -115,9 +115,9 @@ class LoginViewController: UIViewController {
         output.presentMainView
             .asDriver(onErrorJustReturn: false)
             .drive(with: self, onNext: { owner, value in
-                guard let nextVC = self.storyboard?.instantiateViewController(identifier: "TabBarController")as? UITabBarController else {return}
-                nextVC.modalPresentationStyle = UIModalPresentationStyle.fullScreen
-                owner.present(nextVC, animated: true, completion: nil)
+                let vc = TabbarViewController()
+                vc.modalPresentationStyle = UIModalPresentationStyle.fullScreen
+                owner.present(vc, animated: true, completion: nil)
             }).disposed(by: disposeBag)
         
         output.isBtnHidden

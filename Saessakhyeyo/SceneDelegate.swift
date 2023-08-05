@@ -18,7 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
-        window?.rootViewController = TabbarViewController() // 루트 뷰컨트롤러 생성
+        window?.rootViewController = LoginViewController() // 루트 뷰컨트롤러 생성
         window?.makeKeyAndVisible()
     }
     

@@ -27,7 +27,7 @@ struct UserModel {
                 if let error = error {
                     print("_________login error_________")
                     print(error)
-                    
+                    insertFcmToken(userId: UserDefaults.shared.integer(forKey: "id"), token: UserDefaults.shared.string(forKey: "token")!)
                     self.kakaoLoginVailable()
                     
                 } else {
@@ -41,6 +41,22 @@ struct UserModel {
             self.isBtnHidden.accept(false)
             self.kakaoLoginVailable()
         }
+    }
+    
+    func insertFcmToken(userId: Int, token: String) {
+        let url = APIConstrants.baseURL + "/fcm-token/app"
+        
+        let body : Parameters = [
+            "userId" : userId,
+            "token" : token
+        ]
+        
+        let resource = Resource<Bool>(url: URL(string: url)!, method: .post, headers: ["Content-Type" : "application/json" ], body: body)
+        
+        NetworkManager.shared.getRequest(resource: resource)
+            .subscribe(onNext: { result in
+              print(result)
+            }).disposed(by: disposeBag)
     }
     
     func setUserInfo(){
@@ -68,14 +84,14 @@ struct UserModel {
             "id" : id,
             "userName" : nickname
         ]
-        
+        print(body)
         let resource = Resource<User>(url: URL(string: url)!, method: .post, headers: ["Content-Type" : "application/json" ], body: body)
         
         NetworkManager.shared.getRequest(resource: resource)
             .subscribe(onNext: { result in
                 UserDefaults.shared.set(result.id, forKey: "id")
                 UserDefaults.shared.set(result.userName, forKey: "nickname")
-                
+                insertFcmToken(userId: result.id, token: UserDefaults.shared.string(forKey: "token")!)
                 setPlanCheckToServer(userId: result.id)
                 setPlantCheckToServer(userId: result.id)
                 

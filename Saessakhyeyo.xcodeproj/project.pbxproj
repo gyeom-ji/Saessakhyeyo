@@ -106,7 +106,6 @@
 		CFB36C252A7649DA009CFEF7 /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB36C242A7649DA009CFEF7 /* GuideViewController.swift */; };
 		CFB373F62A3ED64100E76A6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB373F52A3ED64100E76A6D /* AppDelegate.swift */; };
 		CFB373F82A3ED64100E76A6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB373F72A3ED64100E76A6D /* SceneDelegate.swift */; };
-		CFB373FA2A3ED64100E76A6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB373F92A3ED64100E76A6D /* ViewController.swift */; };
 		CFB373FF2A3ED64300E76A6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFB373FE2A3ED64300E76A6D /* Assets.xcassets */; };
 		CFB374022A3ED64300E76A6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB374002A3ED64300E76A6D /* LaunchScreen.storyboard */; };
 		CFB3740D2A3ED64300E76A6D /* SaessakhyeyoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB3740C2A3ED64300E76A6D /* SaessakhyeyoTests.swift */; };
@@ -124,6 +123,8 @@
 		CFB3743C2A3ED75500E76A6D /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB3743B2A3ED75500E76A6D /* APIConstants.swift */; };
 		CFB3743E2A3ED77100E76A6D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB3743D2A3ED77100E76A6D /* NetworkManager.swift */; };
 		CFB374402A3ED7A100E76A6D /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB3743F2A3ED7A100E76A6D /* QuestionViewModel.swift */; };
+		CFC638682A7E119B00C196BD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFC638672A7E119B00C196BD /* GoogleService-Info.plist */; };
+		CFC6386C2A7E17FB00C196BD /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = CFC6386B2A7E17FB00C196BD /* FirebaseMessaging */; };
 		CFDE70AA2A7A027C001F2EF5 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB3743B2A3ED75500E76A6D /* APIConstants.swift */; };
 		D4D87862E68369AD5FCECF29 /* Pods_Saessakhyeyo_SaessakhyeyoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B25E019F2399CA2CCD5A99 /* Pods_Saessakhyeyo_SaessakhyeyoUITests.framework */; };
 /* End PBXBuildFile section */
@@ -274,7 +275,6 @@
 		CFB373F22A3ED64100E76A6D /* Saessakhyeyo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Saessakhyeyo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFB373F52A3ED64100E76A6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFB373F72A3ED64100E76A6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CFB373F92A3ED64100E76A6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CFB373FE2A3ED64300E76A6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFB374012A3ED64300E76A6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFB374032A3ED64300E76A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -295,6 +295,7 @@
 		CFB3743B2A3ED75500E76A6D /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 		CFB3743D2A3ED77100E76A6D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		CFB3743F2A3ED7A100E76A6D /* QuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModel.swift; sourceTree = "<group>"; };
+		CFC638672A7E119B00C196BD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -311,6 +312,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFC6386C2A7E17FB00C196BD /* FirebaseMessaging in Frameworks */,
 				5756CA7F0ADEA47AAA562F9E /* Pods_Saessakhyeyo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -606,6 +608,7 @@
 		CFB373F42A3ED64100E76A6D /* Saessakhyeyo */ = {
 			isa = PBXGroup;
 			children = (
+				CFC638672A7E119B00C196BD /* GoogleService-Info.plist */,
 				CF120C582A78EF4A003EAC3C /* Saessakhyeyo.entitlements */,
 				CF55A7F92A5029CC00304C64 /* Entity */,
 				CFB374282A3ED6A200E76A6D /* Views */,
@@ -614,7 +617,6 @@
 				CFB374252A3ED66300E76A6D /* Models */,
 				CFB373F52A3ED64100E76A6D /* AppDelegate.swift */,
 				CFB373F72A3ED64100E76A6D /* SceneDelegate.swift */,
-				CFB373F92A3ED64100E76A6D /* ViewController.swift */,
 				CFB373FE2A3ED64300E76A6D /* Assets.xcassets */,
 				CFB374002A3ED64300E76A6D /* LaunchScreen.storyboard */,
 				CFB374032A3ED64300E76A6D /* Info.plist */,
@@ -777,6 +779,9 @@
 				CF120C4D2A77D674003EAC3C /* PBXTargetDependency */,
 			);
 			name = Saessakhyeyo;
+			packageProductDependencies = (
+				CFC6386B2A7E17FB00C196BD /* FirebaseMessaging */,
+			);
 			productName = Saessakhyeyo;
 			productReference = CFB373F22A3ED64100E76A6D /* Saessakhyeyo.app */;
 			productType = "com.apple.product-type.application";
@@ -855,6 +860,9 @@
 				Base,
 			);
 			mainGroup = CFB373E92A3ED64100E76A6D;
+			packageReferences = (
+				CFC6386A2A7E17FB00C196BD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = CFB373F32A3ED64100E76A6D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -882,6 +890,7 @@
 			files = (
 				CFB374022A3ED64300E76A6D /* LaunchScreen.storyboard in Resources */,
 				CFB373FF2A3ED64300E76A6D /* Assets.xcassets in Resources */,
+				CFC638682A7E119B00C196BD /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1031,7 +1040,6 @@
 			files = (
 				CFB36BFF2A6F9EAE009CFEF7 /* DiaryViewModel.swift in Sources */,
 				CF4BF28A2A56C87100B0AF6F /* PlanTableViewCell.swift in Sources */,
-				CFB373FA2A3ED64100E76A6D /* ViewController.swift in Sources */,
 				CF4BF2562A53D65900B0AF6F /* ViewMode.swift in Sources */,
 				CFB36C0F2A74F771009CFEF7 /* SettingViewController.swift in Sources */,
 				CFB36BFD2A6F9EA4009CFEF7 /* DiaryViewController.swift in Sources */,
@@ -1358,6 +1366,10 @@
 				DEVELOPMENT_TEAM = 5KL4MKYX7X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Saessakhyeyo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "새싹해요";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -1388,6 +1400,10 @@
 				DEVELOPMENT_TEAM = 5KL4MKYX7X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Saessakhyeyo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "새싹해요";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -1534,6 +1550,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CFC6386A2A7E17FB00C196BD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CFC6386B2A7E17FB00C196BD /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFC6386A2A7E17FB00C196BD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CFB373EA2A3ED64100E76A6D /* Project object */;
 }
