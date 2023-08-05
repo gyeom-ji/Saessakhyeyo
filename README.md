@@ -23,9 +23,12 @@
 <img width="440" alt="Screenshot 2023-08-05 at 1 29 33 PM" src="https://github.com/gyeom-ji/Saessakhyeyo/assets/94424579/5c71203c-4187-4126-93bf-973de7b59902">
 
 #
-<img width="440" alt="Screenshot 2023-08-05 at 1 29 40 PM" src="https://github.com/gyeom-ji/Saessakhyeyo/assets/94424579/47458fa2-6ee9-4f99-93a9-a08e7b14ecaa">
+<img width="440" alt="Screenshot 2023-08-05 at 1 33 47 PM" src="https://github.com/gyeom-ji/Saessakhyeyo/assets/94424579/4ac2e618-a454-42cb-9035-a196af4b31ff">
+
 <img width="440" alt="Screenshot 2023-08-05 at 1 30 44 PM" src="https://github.com/gyeom-ji/Saessakhyeyo/assets/94424579/6e094ede-8072-4fff-880d-eeb1932970a0">
 
 #
 <img width="440" alt="Screenshot 2023-08-05 at 1 31 10 PM" src="https://github.com/gyeom-ji/Saessakhyeyo/assets/94424579/ab2c076d-41b3-4611-88be-ee1d1869870b">
-<img width="440" alt="Screenshot 2023-08-05 at 1 30 55 PM" src="https://github.com/gyeom-ji/Saessakhyeyo/assets/94424579/413f1b34-5c49-41ca-b830-aced3e3583e4">
+<img width="440" alt="Screenshot 2023-08-05 at 1 34 09 PM" src="https://github.com/gyeom-ji/Saessakhyeyo/assets/94424579/5abdd32d-1403-4c47-b4da-883487de29d5">
+
+
