@@ -1,6 +1,7 @@
-
-<p align="center"><img src="https://github.com/gyeom-ji/Saessakhyeyo/files/12266066/saesakhaeyoLogo.pdf"/></p>
-
+<p align="center">
+ <img src="https://github.com/gyeom-ji/Saessakhyeyo/files/12266066/saesakhaeyoLogo.pdf"/>
+ <img src=https://github.com/gyeom-ji/Saessakhyeyo/files/12266075/saesak_teeth.pdf"/>
+</p>
 
 <br>
 
