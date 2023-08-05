@@ -1,5 +1,5 @@
 <div align-center>
-<img src="https://github.com/gyeom-ji/Saessakhyeyo/files/12266066/saesakhaeyoLogo.pdf" width="700" height="370"/>
+<img src="https://github.com/gyeom-ji/Saessakhyeyo/files/12266066/saesakhaeyoLogo.pdf" width="700" height="100"/>
 </div>
 
 <br>
