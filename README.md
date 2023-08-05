@@ -1,6 +1,6 @@
 <p align="center">
- <img src="https://github.com/gyeom-ji/Saessakhyeyo/files/12266066/saesakhaeyoLogo.pdf"/>
- <img src="https://github.com/gyeom-ji/ADOPT-A-PET/files/12266078/saesak_teeth.pdf", width="90" height="100"/>
+![Screenshot 2023-08-02 at 5 13 47 PM](https://github.com/gyeom-ji/Saessakhyeyo/assets/94424579/e644ff55-a238-439c-9540-9d56f5c8dc52)
+
 </p>
 
 <br>
@@ -10,6 +10,7 @@
 >날씨 / 할일 알람을 통해 간편한 식물 관리를 할 수 있습니다.
 >질문게시판을 통해 다른 사용자들과 정보 공유를 할 수 있습니다.
 >
+
 <br>
 
  <div>
@@ -21,5 +22,4 @@
 
 # 미리보기
 
-![Screenshot 2023-08-02 at 5 13 47 PM](https://github.com/gyeom-ji/Saessakhyeyo/assets/94424579/e644ff55-a238-439c-9540-9d56f5c8dc52)
 
