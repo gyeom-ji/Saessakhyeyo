@@ -108,9 +108,6 @@
 		CFB373F82A3ED64100E76A6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB373F72A3ED64100E76A6D /* SceneDelegate.swift */; };
 		CFB373FF2A3ED64300E76A6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFB373FE2A3ED64300E76A6D /* Assets.xcassets */; };
 		CFB374022A3ED64300E76A6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB374002A3ED64300E76A6D /* LaunchScreen.storyboard */; };
-		CFB3740D2A3ED64300E76A6D /* SaessakhyeyoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB3740C2A3ED64300E76A6D /* SaessakhyeyoTests.swift */; };
-		CFB374172A3ED64400E76A6D /* SaessakhyeyoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB374162A3ED64400E76A6D /* SaessakhyeyoUITests.swift */; };
-		CFB374192A3ED64400E76A6D /* SaessakhyeyoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB374182A3ED64400E76A6D /* SaessakhyeyoUITestsLaunchTests.swift */; };
 		CFB3742A2A3ED72900E76A6D /* PlanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB374292A3ED72800E76A6D /* PlanModel.swift */; };
 		CFB374332A3ED73500E76A6D /* PlantDictModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB3742B2A3ED73200E76A6D /* PlantDictModel.swift */; };
 		CFB374342A3ED73500E76A6D /* PlantSpeciesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB3742C2A3ED73300E76A6D /* PlantSpeciesModel.swift */; };
@@ -123,8 +120,8 @@
 		CFB3743C2A3ED75500E76A6D /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB3743B2A3ED75500E76A6D /* APIConstants.swift */; };
 		CFB3743E2A3ED77100E76A6D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB3743D2A3ED77100E76A6D /* NetworkManager.swift */; };
 		CFB374402A3ED7A100E76A6D /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB3743F2A3ED7A100E76A6D /* QuestionViewModel.swift */; };
-		CFC638682A7E119B00C196BD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFC638672A7E119B00C196BD /* GoogleService-Info.plist */; };
 		CFC6386C2A7E17FB00C196BD /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = CFC6386B2A7E17FB00C196BD /* FirebaseMessaging */; };
+		CFC638702A7E2B0700C196BD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFC6386F2A7E2B0700C196BD /* GoogleService-Info.plist */; };
 		CFDE70AA2A7A027C001F2EF5 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB3743B2A3ED75500E76A6D /* APIConstants.swift */; };
 		D4D87862E68369AD5FCECF29 /* Pods_Saessakhyeyo_SaessakhyeyoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B25E019F2399CA2CCD5A99 /* Pods_Saessakhyeyo_SaessakhyeyoUITests.framework */; };
 /* End PBXBuildFile section */
@@ -279,10 +276,7 @@
 		CFB374012A3ED64300E76A6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFB374032A3ED64300E76A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFB374082A3ED64300E76A6D /* SaessakhyeyoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaessakhyeyoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFB3740C2A3ED64300E76A6D /* SaessakhyeyoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaessakhyeyoTests.swift; sourceTree = "<group>"; };
 		CFB374122A3ED64400E76A6D /* SaessakhyeyoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaessakhyeyoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFB374162A3ED64400E76A6D /* SaessakhyeyoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaessakhyeyoUITests.swift; sourceTree = "<group>"; };
-		CFB374182A3ED64400E76A6D /* SaessakhyeyoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaessakhyeyoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CFB374292A3ED72800E76A6D /* PlanModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanModel.swift; sourceTree = "<group>"; };
 		CFB3742B2A3ED73200E76A6D /* PlantDictModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantDictModel.swift; sourceTree = "<group>"; };
 		CFB3742C2A3ED73300E76A6D /* PlantSpeciesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantSpeciesModel.swift; sourceTree = "<group>"; };
@@ -295,7 +289,7 @@
 		CFB3743B2A3ED75500E76A6D /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 		CFB3743D2A3ED77100E76A6D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		CFB3743F2A3ED7A100E76A6D /* QuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModel.swift; sourceTree = "<group>"; };
-		CFC638672A7E119B00C196BD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CFC6386F2A7E2B0700C196BD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Desktop/saessak/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -585,8 +579,6 @@
 			children = (
 				CF120C592A78EF68003EAC3C /* SaessakWidgetExtension.entitlements */,
 				CFB373F42A3ED64100E76A6D /* Saessakhyeyo */,
-				CFB3740B2A3ED64300E76A6D /* SaessakhyeyoTests */,
-				CFB374152A3ED64400E76A6D /* SaessakhyeyoUITests */,
 				CF120C3F2A77D671003EAC3C /* SaessakWidget */,
 				CFB373F32A3ED64100E76A6D /* Products */,
 				C0A3B617BBACCE1B3F2F371C /* Pods */,
@@ -608,7 +600,7 @@
 		CFB373F42A3ED64100E76A6D /* Saessakhyeyo */ = {
 			isa = PBXGroup;
 			children = (
-				CFC638672A7E119B00C196BD /* GoogleService-Info.plist */,
+				CFC6386F2A7E2B0700C196BD /* GoogleService-Info.plist */,
 				CF120C582A78EF4A003EAC3C /* Saessakhyeyo.entitlements */,
 				CF55A7F92A5029CC00304C64 /* Entity */,
 				CFB374282A3ED6A200E76A6D /* Views */,
@@ -622,23 +614,6 @@
 				CFB374032A3ED64300E76A6D /* Info.plist */,
 			);
 			path = Saessakhyeyo;
-			sourceTree = "<group>";
-		};
-		CFB3740B2A3ED64300E76A6D /* SaessakhyeyoTests */ = {
-			isa = PBXGroup;
-			children = (
-				CFB3740C2A3ED64300E76A6D /* SaessakhyeyoTests.swift */,
-			);
-			path = SaessakhyeyoTests;
-			sourceTree = "<group>";
-		};
-		CFB374152A3ED64400E76A6D /* SaessakhyeyoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CFB374162A3ED64400E76A6D /* SaessakhyeyoUITests.swift */,
-				CFB374182A3ED64400E76A6D /* SaessakhyeyoUITestsLaunchTests.swift */,
-			);
-			path = SaessakhyeyoUITests;
 			sourceTree = "<group>";
 		};
 		CFB374252A3ED66300E76A6D /* Models */ = {
@@ -890,7 +865,7 @@
 			files = (
 				CFB374022A3ED64300E76A6D /* LaunchScreen.storyboard in Resources */,
 				CFB373FF2A3ED64300E76A6D /* Assets.xcassets in Resources */,
-				CFC638682A7E119B00C196BD /* GoogleService-Info.plist in Resources */,
+				CFC638702A7E2B0700C196BD /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1138,7 +1113,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFB3740D2A3ED64300E76A6D /* SaessakhyeyoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1146,8 +1120,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFB374172A3ED64400E76A6D /* SaessakhyeyoUITests.swift in Sources */,
-				CFB374192A3ED64400E76A6D /* SaessakhyeyoUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -137,15 +137,12 @@ struct UserModel {
     }
     
     func kakaoLoginVailable(){
-        if UserApi.isKakaoTalkLoginAvailable() {
+        if (UserApi.isKakaoTalkLoginAvailable()) {
             UserApi.shared.loginWithKakaoTalk { oauthToken, error in
                 if let error = error {
                     print(error)
                 } else {
                     print("New Kakao Login")
-                    
-                    //do something
-                    _ = oauthToken
                     
                     // 로그인 성공 시
                     UserApi.shared.me { kuser, error in
@@ -154,32 +151,26 @@ struct UserModel {
                             print(error)
                         } else {
                             print("loginWithKakaoTalk() success.")
-                            // do something
-                            _ = oauthToken
-                            // 어세스토큰
+
                             let accessToken = oauthToken?.accessToken
-                            
-                            //카카오 로그인을 통해 사용자 토큰을 발급 받은 후 사용자 관리 API 호출
                             self.setUserInfo()
                         }
                     }
                 }
             }
-        }
-        UserApi.shared.loginWithKakaoAccount {(oauthToken, error) in
-            if let error = error {
-                print(error)
-            }
-            else {
-                print("loginWithKakaoAccount() success.")
-                
-                //do something
-                _ = oauthToken
-                // 어세스토큰
-                let accessToken = oauthToken?.accessToken
-                print("aceess ======== " + accessToken!)
-                //카카오 로그인을 통해 사용자 토큰을 발급 받은 후 사용자 관리 API 호출
-                self.setUserInfo()
+        } else {
+            UserApi.shared.loginWithKakaoAccount {(oauthToken, error) in
+                if let error = error {
+                    print(error)
+                }
+                else {
+                    print("loginWithKakaoAccount() success.")
+
+                    let accessToken = oauthToken?.accessToken
+                    print("aceess ======== " + accessToken!)
+                    
+                    self.setUserInfo()
+                }
             }
         }
     }
