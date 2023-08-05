@@ -15,5 +15,7 @@
  <div>
 <h2>Skills</h2>
 <img src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
 </div>
+
+#미리보기
+![Screenshot 2023-08-02 at 5 13 47 PM](https://github.com/gyeom-ji/Saessakhyeyo/assets/94424579/cd72c805-c373-4fa5-b311-0584420eae04)
