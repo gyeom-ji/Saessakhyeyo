@@ -17,5 +17,7 @@
 <img src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white"/>
 </div>
 
-#미리보기
-![Screenshot 2023-08-02 at 5 13 47 PM](https://github.com/gyeom-ji/Saessakhyeyo/assets/94424579/cd72c805-c373-4fa5-b311-0584420eae04)
+# 미리보기
+
+![Screenshot 2023-08-02 at 5 13 47 PM](https://github.com/gyeom-ji/Saessakhyeyo/assets/94424579/e644ff55-a238-439c-9540-9d56f5c8dc52)
+
