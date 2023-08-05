@@ -1,8 +1,4 @@
-<div align-center>
 ![saesakhaeyo 1.pdf](https://github.com/gyeom-ji/ADOPT-A-PET/files/12266063/saesakhaeyo.1.pdf)
-
-
-</div>
 
 <br>
 
