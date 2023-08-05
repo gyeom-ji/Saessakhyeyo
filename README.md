@@ -1,5 +1,6 @@
 <div align-center>
-![saesakhaeyoLogo.pdf](https://github.com/gyeom-ji/Saessakhyeyo/files/12266056/saesakhaeyoLogo.pdf)
+![saesakhaeyo 1.pdf](https://github.com/gyeom-ji/ADOPT-A-PET/files/12266063/saesakhaeyo.1.pdf)
+
 
 </div>
 
