@@ -18,7 +18,6 @@
 <br>
 <h2>미리보기</h2>
 
-#
 <img width="440" alt="Screenshot 2023-08-05 at 1 29 24 PM" src="https://github.com/gyeom-ji/Saessakhyeyo/assets/94424579/ab7a4bf7-3194-42e7-9f1e-54bce2172bca">
 <img width="440" alt="Screenshot 2023-08-05 at 1 29 33 PM" src="https://github.com/gyeom-ji/Saessakhyeyo/assets/94424579/5c71203c-4187-4126-93bf-973de7b59902">
 
