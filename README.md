@@ -1,7 +1,6 @@
-<p align="center">
+
 ![Screenshot 2023-08-02 at 5 13 47 PM](https://github.com/gyeom-ji/Saessakhyeyo/assets/94424579/e644ff55-a238-439c-9540-9d56f5c8dc52)
 
-</p>
 
 <br>
 
