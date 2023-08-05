@@ -1,6 +1,6 @@
 <p align="center">
  <img src="https://github.com/gyeom-ji/Saessakhyeyo/files/12266066/saesakhaeyoLogo.pdf"/>
- <img src="https://github.com/gyeom-ji/ADOPT-A-PET/files/12266078/saesak_teeth.pdf", width="100" height="105"/>
+ <img src="https://github.com/gyeom-ji/ADOPT-A-PET/files/12266078/saesak_teeth.pdf", width="85" height="90"/>
 </p>
 
 <br>
